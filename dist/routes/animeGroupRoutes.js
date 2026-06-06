@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const animeGroupController_1 = require("../controllers/animeGroupController");
+const router = (0, express_1.Router)();
+router.get("/trending", animeGroupController_1.getTrendingController);
+router.get("/top-rated", animeGroupController_1.getTopRatedController);
+router.get("/trending-movies", animeGroupController_1.getTrendingMoviesController);
+router.get("/hidden-gems", animeGroupController_1.getHiddenGemsController);
+exports.default = router;

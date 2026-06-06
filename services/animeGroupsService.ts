@@ -1,4 +1,3 @@
-import { cache } from 'react';
 import supabase from '../supabase';
 
 type AnimeType = {

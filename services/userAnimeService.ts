@@ -1,4 +1,3 @@
-import { use } from 'react';
 import supabase from '../supabase';
 
 type UserAnimeStatus = "watching" | "completed" | "plan-to-watch";

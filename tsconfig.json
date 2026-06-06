@@ -5,7 +5,8 @@
         "strict": true,
         "esModuleInterop": true,
         "outDir": "./dist",
-        "rootDir": "./"
+        "rootDir": "./",
+        "skipLibCheck": true
     },
     "include": ["**/*.ts"],
     "files": ["types/express.d.ts", "server.ts"]

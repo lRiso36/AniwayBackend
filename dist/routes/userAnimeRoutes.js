@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const express_1 = require("express");
+const userAnimeController_1 = require("../controllers/userAnimeController");
+const router = (0, express_1.Router)();
+router.post("/log", userAnimeController_1.logAnimeController);
+router.patch("/favorite", userAnimeController_1.toggleIsFavoriteController);
+router.delete("/remove", userAnimeController_1.removeAnimeController);
+router.get("/useranimes", userAnimeController_1.getAnimeController);
+exports.default = router;
