@@ -8,7 +8,13 @@
         "rootDir": "./",
         "skipLibCheck": true
     },
-    "include": ["./**/*.ts"],
-    "exclude": ["node_modules", "dist"],
-    "files": ["types/express.d.ts", "server.ts"]
+    "include": [
+        "server.ts",
+        "controllers/**/*.ts",
+        "routes/**/*.ts",
+        "services/**/*.ts",
+        "middleware/**/*.ts",
+        "types/**/*.ts"
+    ],
+    "exclude": ["node_modules", "dist"]
 }
