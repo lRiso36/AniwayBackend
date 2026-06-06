@@ -1,8 +1,9 @@
 {
-  "name": "aniway-server",
+   "main": "server.ts",
   "version": "1.0.0",
   "scripts": {
-    "dev": "nodemon --exec ts-node --project tsconfig.json server.ts"
+    "dev": "nodemon --exec ts-node --project tsconfig.json server.ts",
+    "start": "ts-node --project tsconfig.json server.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.106.2",
@@ -19,7 +20,6 @@
     "typescript": "~6.0.2"
   },
   "description": "",
-  "main": "index.js",
   "keywords": [],
   "author": "",
   "license": "ISC",
