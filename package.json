@@ -1,28 +1,28 @@
 {
    "main": "server.ts",
-  "version": "1.0.0",
-  "scripts": {
-    "dev": "nodemon --exec ts-node --project tsconfig.json server.ts",
-    "build": "npx tsc --project tsconfig.json",
-    "start": "node dist/server.js"
-  },
-  "dependencies": {
-    "@supabase/supabase-js": "^2.106.2",
-    "cors": "^2.8.6",
-    "dotenv": "^17.4.2",
-    "express": "^5.2.1",
-    "ts-node": "^10.9.2",
-    "typescript": "~6.0.2"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.19",
-    "@types/express": "^5.0.6",
-    "@types/node": "^24.12.3",
-    "nodemon": "^3.1.14"
-  },
-  "description": "",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+   "version": "1.0.0",
+   "scripts": {
+      "dev": "nodemon --exec ts-node --project tsconfig.json server.ts",
+      "build": "npx tsc --project tsconfig.json",
+      "start": "node dist/server.js"
+   },
+   "dependencies": {
+      "@supabase/supabase-js": "^2.107.0",
+      "cors": "^2.8.6",
+      "dotenv": "^17.4.2",
+      "express": "^5.2.1",
+      "ts-node": "^10.9.2",
+      "typescript": "~5.4.0"
+   },
+   "devDependencies": {
+      "@types/cors": "^2.8.19",
+      "@types/express": "^5.0.6",
+      "@types/node": "^24.12.3",
+      "nodemon": "^3.1.14"
+   },
+   "description": "",
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "type": "commonjs"
 }
