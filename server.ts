@@ -12,7 +12,7 @@ const app = express ();
 
 app.use(express.json()); // lets app read JSON from request 
 app.use(cors({
-    origin: 'http://localhost:5173'
+    origin: ['http://localhost:5173', 'https://ani-way-final.vercel.app', 'https://ani-way-final-git-dev-lriso36s-projects.vercel.app']
 })) //allow my frontend to requets my backend
 
 app.use('/api/auth', authRoutes); // register them under /api/auth

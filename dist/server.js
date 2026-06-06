@@ -15,7 +15,7 @@ const userListRoutes_1 = __importDefault(require("./routes/userListRoutes"));
 const app = (0, express_1.default)();
 app.use(express_1.default.json()); // lets app read JSON from request 
 app.use((0, cors_1.default)({
-    origin: 'http://localhost:5173'
+    origin: ['http://localhost:5173', 'https://ani-way-final.vercel.app', 'https://ani-way-final-git-dev-lriso36s-projects.vercel.app']
 })); //allow my frontend to requets my backend
 app.use('/api/auth', authRoutes_1.default); // register them under /api/auth
 app.use('/api/anime', authMiddleware_1.requireAuth, animeRoutes_1.default);
